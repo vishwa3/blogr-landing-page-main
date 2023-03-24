@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div class="header_bg">
+          <div class="header-bar">
+            <div class="left-header">
+              <figure><img src="images/logo.svg" alt="logo image" /></figure>
+              <span id="menu_mobile" class="menu_mobile_icon"></span>
+              <ul id="header_nav_menu" class="header_nav_menu">
+                <li class="header_nav_menu_item">
+                  <div>
+                    <a href="#" class="header_nav_menu_item_link hover_link"
+                      >Product</a
+                    >
+                    <picture>
+                      <source
+                        srcset="images/icon-arrow-dark.svg"
+                        media="(max-width: 865px)"
+                      />
+                      <img
+                        src="images/icon-arrow-light.svg"
+                        class="header_nav_menu_item_link_icon"
+                        alt="icon arrow"
+                      />
+                    </picture>
+                  </div>
+
+                  <span class="header_product_menu_wrapper">
+                    <ul
+                      id="header_product_menu"
+                      class="header_product_menu header_submenu"
+                    >
+                      <li class="header_product_menu_item">
+                        <a href="#" class="header_product_menu_item_link"
+                          >Overview</a
+                        >
+                      </li>
+                      <li class="header_product_menu_item">
+                        <a href="#" class="header_product_menu_item_link"
+                          >Pricing</a
+                        >
+                      </li>
+                      <li class="header_product_menu_item">
+                        <a href="#" class="header_product_menu_item_link"
+                          >Marketplace</a
+                        >
+                      </li>
+                      <li class="header_product_menu_item">
+                        <a href="#" class="header_product_menu_item_link"
+                          >Features</a
+                        >
+                      </li>
+                      <li class="header_product_menu_item">
+                        <a href="#" class="header_product_menu_item_link"
+                          >Integrations</a
+                        >
+                      </li>
+                    </ul>
+                  </span>
+                </li>
+                <li class="header_nav_menu_item">
+                  <div>
+                    <a href="#" class="header_nav_menu_item_link hover_link"
+                      >Company</a
+                    >
+                    <picture>
+                      <source
+                        srcset="images/icon-arrow-dark.svg"
+                        media="(max-width: 865px)"
+                      />
+                      <img
+                        src="images/icon-arrow-light.svg"
+                        class="header_nav_menu_item_link_icon"
+                        alt="icon arrow"
+                      />
+                    </picture>
+                  </div>
+
+                  <span class="header_company_menu_wrapper">
+                    <ul class="header_company_menu header_submenu">
+                      <li class="header_company_menu_item">
+                        <a href="#" class="header_company_menu_item_link"
+                          >About</a
+                        >
+                      </li>
+                      <li class="header_company_menu_item">
+                        <a href="#" class="header_company_menu_item_link"
+                          >Team</a
+                        >
+                      </li>
+                      <li class="header_company_menu_item">
+                        <a href="#" class="header_company_menu_item_link"
+                          >Blog</a
+                        >
+                      </li>
+                      <li class="header_company_menu_item">
+                        <a href="#" class="header_company_menu_item_link"
+                          >Careers</a
+                        >
+                      </li>
+                    </ul>
+                  </span>
+                </li>
+                <li class="header_nav_menu_item">
+                  <div>
+                    <a href="#" class="header_nav_menu_item_link hover_link"
+                      >Connect</a
+                    >
+                    <picture>
+                      <source
+                        srcset="images/icon-arrow-dark.svg"
+                        media="(max-width: 865px)"
+                      />
+                      <img
+                        src="images/icon-arrow-light.svg"
+                        class="header_nav_menu_item_link_icon"
+                        alt="icon arrow"
+                      />
+                    </picture>
+                  </div>
+
+                  <span class="header_connect_menu_wrapper">
+                    <ul class="header_connect_menu header_submenu">
+                      <li class="header_connect_menu_item">
+                        <a href="#" class="header_connect_menu_item_link"
+                          >Contact</a
+                        >
+                      </li>
+                      <li class="header_connect_menu_item">
+                        <a href="#" class="header_connect_menu_item_link"
+                          >Newsletter</a
+                        >
+                      </li>
+                      <li class="header_connect_menu_item">
+                        <a href="#" class="header_connect_menu_item_link"
+                          >LinkedIn</a
+                        >
+                      </li>
+                    </ul>
+                  </span>
+                </li>
+                <li class="header_nav_menu_item login">
+                  <a href="#" class="header_nav_menu_item_link hover_link"
+                    >Login</a
+                  >
+                </li>
+                <li class="header_nav_menu_item sign_up">
+                  <a href="#" class="header_nav_menu_item_link">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-title">
+              <h1>A modern publishing platform</h1>
+              <h3>Grow your audience and build your online brand</h3>
+              <button class="start">Start for Free</button>
+              <button class="start learn">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="content_designed">
+        <h1>Designed for the future</h1>
+        <div class="design-info-wrapper">
+          <div class="design-text">
+            <h2>Introducing an extensible editor</h2>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+
+          <div class="design-text">
+            <h2>Robust content management</h2>
+            <p>
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+
+        <picture class="design-image">
+          <source
+            srcset="images/illustration-editor-mobile.svg"
+            media="(max-width: 865px)"
+          />
+          <img
+            src="images/illustration-editor-desktop.svg"
+            alt="illustration-editor"
+          />
+        </picture>
+      </section>
+      <section class="content_state">
+        <div class="state-image">
+          <img src="images/illustration-phones.svg" alt="phones" />
+        </div>
+        <div class="content-info">
+          <h1>State of the Art Infrastructure</h1>
+          <p>
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </section>
+      <section class="content_free">
+        <picture class="content-free-hero">
+          <source
+            srcset="images/illustration-laptop-mobile.svg"
+            media="(max-width: 865px)"
+          />
+          <img
+            src="images/illustration-laptop-desktop.svg"
+            alt="illustration laptop"
+          />
+        </picture>
+        <div class="free-info-wrapper">
+          <div class="free-text">
+            <h2>Free, open, simple</h2>
+            <p>
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="free-text">
+            <h2>Powerful tooling</h2>
+            <p>
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-wrapper">
+          <figure><img src="images/logo.svg" alt="logo" /></figure>
+          <ul class="footer_menu">
+            <li class="footer_menu_item">Product</li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Overview</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Pricing</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Marketplace</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Features</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Integrations</a
+              >
+            </li>
+          </ul>
+          <ul class="footer_menu">
+            <li class="footer_menu_item">Company</li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Team</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Careers</a
+              >
+            </li>
+          </ul>
+          <ul class="footer_menu">
+            <li class="footer_menu_item">Connect</li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >Newsletter</a
+              >
+            </li>
+            <li class="footer_menu_item">
+              <a
+                class="footer_connect_menu_item_link hover_link_footer"
+                href="#"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/vishwa3" target="_blank">Vishwanath</a>.
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
